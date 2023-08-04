@@ -23,7 +23,7 @@ SOFTWARE.
 """
 
 # ""DEAR PRO PEOPLE,  DON'T REMOVE & CHANGE THIS LINE
-# TG :- @Abishno1Mi
+# TG :- @Zadkiel
 #     TG  :- Zadkiel_bots
 #     GITHUB :- Moca96 ""
 
