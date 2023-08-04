@@ -317,7 +317,7 @@ def info(update: Update, context: CallbackContext):
         disaster_level_present = True
 
     if disaster_level_present:
-        text += ' [<a href="https://t.me/Zadkiel_bots/60">ʟᴇᴠᴇʟʟɪɴɢ</a>]'.format(
+        text += ' [<a href="https://t.me/Network_Zadkiel">ʟᴇᴠᴇʟʟɪɴɢ</a>]'.format(
             bot.username,
         )
 
@@ -354,10 +354,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Zadkiel_bots/60"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Network_Zadkiel"
                             ),
                             InlineKeyboardButton(
-                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/Zadkiel_bots/60"
+                                "ᴅɪsᴀsᴛᴇʀ", url="https://t.me/Network_Zadkiel"
                             ),
                         ],
                     ]
@@ -374,10 +374,10 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Zadkiel_bots/60"
+                                "ʜᴇᴀʟᴛʜ", url="https://t.me/Network_Zadkiel"
                             ),
                             InlineKeyboardButton(
-                                "ʟᴇᴠᴇʟʟɪɴɢ", url="https://t.me/Zadkiel_bots/60"
+                                "ʟᴇᴠᴇʟʟɪɴɢ", url="https://t.me/Network_Zadkiel"
                             ),
                         ],
                     ]
@@ -491,7 +491,7 @@ def stats(update, context):
             + "\n*Bot statistics*:\n"
             + "\n".join([mod.__stats__() for mod in STATS])
             + "\n\n[⍙ ɢɪᴛʜᴜʙ](https://github.com/Moca96/DrimiRobot) | ⍚\n\n "
-            + "╘══「 by [ᴀʙɪsʜɴᴏɪ](github.com/Moca96) 」\n",
+            + "╘══「 by [ᴢᴀᴅᴋɪᴇʟ](github.com/Moca96) 」\n",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(kb),
             disable_web_page_preview=True,
