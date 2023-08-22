@@ -19,7 +19,7 @@
       "url": "https://github.com/heroku/heroku-buildpack-python"
     },
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-requirements.txt-latest"
+      "url": "https://github.com/jonathanong/heroku-buildpack-requirements.txt"
     } 
    ],
    "stack": "heroku-22",
