@@ -20,7 +20,7 @@
 <a href="https://github.com/Moca96/DrimiRobot/commits/zadkiel"> <img src="https://img.shields.io/github/last-commit/Moca96/DrimiRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
 </p>
 
-_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [ᴇxᴏɴ ✘ ʀᴏʙᴏᴛ](https://t.me/drimi_robot)**_
+_**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Drimi ✘ ʀᴏʙᴏᴛ](https://t.me/drimi_robot)**_
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
