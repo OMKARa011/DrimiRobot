@@ -134,6 +134,6 @@ OWNER_ID =  sᴛᴀʀᴛ @Exon_Robot & ᴛʏᴘᴇ /id
 </h3>
  : ➻
 
-➥ [zadkiel] × <a href="https://github.com/Moca96" alt="Abishnoi69"> <img src="https://img.shields.io/badge/KINGABISHNOI-90302f?logo=github" /></a>  
+➥ [zadkiel] × <a href="https://github.com/Moca96" alt="zadkiel_z"> <img src="https://img.shields.io/badge/zadkiel-90302f?logo=github" /></a>  
 a>  
 ━━━━━━━━━━━━━━━━━━━━
