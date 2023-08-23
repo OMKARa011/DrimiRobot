@@ -8,18 +8,6 @@
 
 ##  ᴄᴀᴛᴄʜ ᴍᴇ ɪɴ [ᴛɢ🏃‍♀️](https://t.me/zadkiel_z) 
 
-## sᴛᴀᴛs
-<p align="center">
-<a href="https://github.com/Moca96/DrimiRobot/stargazers"><img src="https://img.shields.io/github/stars/Moca96/DrimiRobot?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/Moca96/DrimiRobot/network/members"> <img src="https://img.shields.io/github/forks/Moca96/DrimiRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/Moca96/DrimiRobot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
-<a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-skyblue?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?color=white&label=telethon&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://pypi.org/project/Pyrogram/"> <img src="https://img.shields.io/pypi/v/pyrogram?color=white&label=pyrogram&logo=python&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Moca96/DrimiRobot"> <img src="https://img.shields.io/github/repo-size/Moca96/DrimiRobot?color=skyblue&logo=github&logoColor=blue&style=for-the-badge" /></a>
-<a href="https://github.com/Moca96/DrimiRobot/commits/zadkiel"> <img src="https://img.shields.io/github/last-commit/Moca96/DrimiRobot?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-</p>
-
 _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Drimi ✘ ʀᴏʙᴏᴛ](https://t.me/drimi_robot)**_
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
