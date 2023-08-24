@@ -73,7 +73,7 @@ _**ᴀᴠᴀɪʟᴀʙʟᴇ ᴏɴ ᴛᴇʟᴇɢʀᴀᴍ ᴀs [Drimi ✘ ʀᴏʙ�
 - `git clone https://github.com/Moca96/DrimiRobot`
 
 - ᴇɴᴛᴇʀ ɪɴ ʀᴇᴘᴏ
-- `cd ExonRobot`
+- `cd DrimiRobot`
 
 - ɪɴsᴛᴀʟʟ ʀᴇǫᴜɪʀᴇᴍᴇɴᴛs ʙʏ :
 - `pip3 install -U -r requirements.txt`
