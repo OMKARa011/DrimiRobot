@@ -16,14 +16,14 @@ from Drimi.modules.no_sql.karma_db import (
     update_karma,
 )
 
-regex_upvote = r"^((?i)\+|\+\+|\+1|\++|\+69|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"
+regex_upvote = r"^(\+|\+\+|\+1|\++|\+69|thx|thanx|thanks|🖤|❣️|💝|💖|💕|❤|💘|cool|good|👍|baby|thankyou|love|pro)$"
 regex_downvote = r"^(\-|\-\-|\-1|👎|💔|noob|weak|fuck off|nub|gey|kid|shit|mf)$"
 
 karma_positive_group = 3
 karma_negative_group = 4
 
 
-@zadkiel.on_message(
+@abishnoi.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -61,7 +61,7 @@ async def upvote(_, message):
     )
 
 
-@zadkiel.on_message(
+@abishnoi.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -98,8 +98,8 @@ async def downvote(_, message):
     )
 
 
-@zadkiel.on_cmd("karmastat", group_only=True)
-@zadkiel.adminsOnly(permissions="can_change_info", is_both=True)
+@abishnoi.on_cmd("karmastat", group_only=True)
+@abishnoi.adminsOnly(permissions="can_change_info", is_both=True)
 async def command_karma(_, message):
     chat_id = message.chat.id
     if not message.reply_to_message:
@@ -151,8 +151,8 @@ async def command_karma(_, message):
             await message.reply_text(f"**ᴛᴏᴛᴀʟ ᴘᴏɪɴᴛs**: __{karma}__")
 
 
-@zadkiel.on_cmd("karma", group_only=True)
-@zadkiel.adminsOnly(permissions="can_change_info", is_both=True)
+@abishnoi.on_cmd("karma", group_only=True)
+@abishnoi.adminsOnly(permissions="can_change_info", is_both=True)
 async def captcha_state(_, message):
     usage = "**ᴜsᴀɢᴇ:**\n/karma [ON|OFF]"
     if len(message.command) != 2:
@@ -166,4 +166,4 @@ async def captcha_state(_, message):
         await karma_off(message.chat.id)
         await message.reply_text("ᴅɪsᴀʙʟᴇᴅ ᴋᴀʀᴍᴀ sʏsᴛᴇᴍ.")
     else:
-        await message.reply_text(usage)
+        await message.reply_text
