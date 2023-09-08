@@ -23,7 +23,7 @@ karma_positive_group = 3
 karma_negative_group = 4
 
 
-@abishnoi.on_message(
+@zadkiel_z.on_message(
     filters.text
     & filters.group
     & filters.incoming
