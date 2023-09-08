@@ -1,7 +1,7 @@
 """
 MIT License
 
-Copyright (c) 2022 ABISHNOI69
+Copyright (c) 2022 MOCA96
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -23,18 +23,18 @@ SOFTWARE.
 """
 
 # ""DEAR PRO PEOPLE,  DON'T REMOVE & CHANGE THIS LINE
-# TG :- @Abishnoi1M
-#      :- Abishnoi_bots
-#     GITHUB :- Abishnoi69 ""
+# TG :- @ZADKIEL_Z
+#      :- NETWORK_ZADKIEL
+#     GITHUB :- Moca96 ""
 
 
 import asyncio
 
 from pyrogram import filters
 
-from Exon import OWNER_ID
-from Exon import Abishnoi as abishnoi
-from Exon.modules.no_sql.karma_db import (
+from Drimi import OWNER_ID
+from Drimi import Zadkiel_z as Zadkiel_z
+from Drimi.modules.no_sql.karma_db import (
     alpha_to_int,
     get_karma,
     get_karmas,
@@ -52,7 +52,7 @@ karma_positive_group = 3
 karma_negative_group = 4
 
 
-@abishnoi.on_message(
+@zadkiel_z.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -90,7 +90,7 @@ async def upvote(_, message):
     )
 
 
-@abishnoi.on_message(
+@Zadkiel_z.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -127,8 +127,8 @@ async def downvote(_, message):
     )
 
 
-@abishnoi.on_cmd("karmastat", group_only=True)
-@abishnoi.adminsOnly(permissions="can_change_info", is_both=True)
+@Zadkiel_z.on_cmd("karmastat", group_only=True)
+@Zadkiel_z.adminsOnly(permissions="can_change_info", is_both=True)
 async def command_karma(_, message):
     chat_id = message.chat.id
     if not message.reply_to_message:
