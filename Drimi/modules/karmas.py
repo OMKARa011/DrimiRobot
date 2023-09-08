@@ -33,7 +33,7 @@ import asyncio
 from pyrogram import filters
 
 from Drimi import OWNER_ID
-from Drimi import Zadkiel_z as Zadkiel_z
+from Drimi import Zadkiel as Zadkiel
 from Drimi.modules.no_sql.karma_db import (
     alpha_to_int,
     get_karma,
@@ -52,7 +52,7 @@ karma_positive_group = 3
 karma_negative_group = 4
 
 
-@zadkiel_z.on_message(
+@zadkiel.on_message(
     filters.text
     & filters.group
     & filters.incoming
@@ -127,8 +127,8 @@ async def downvote(_, message):
     )
 
 
-@Zadkiel_z.on_cmd("karmastat", group_only=True)
-@Zadkiel_z.adminsOnly(permissions="can_change_info", is_both=True)
+@Zadkiel.on_cmd("karmastat", group_only=True)
+@Zadkiel.adminsOnly(permissions="can_change_info", is_both=True)
 async def command_karma(_, message):
     chat_id = message.chat.id
     if not message.reply_to_message:
